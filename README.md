@@ -1,5 +1,5 @@
 # POW
-A very simple proof of work script for nodejs
+A very simple proof of work implementation for nodejs
 
 ### How to use
 It is very simple and straight forward. Please check the `index.js` file to find how to call the pow child process.
