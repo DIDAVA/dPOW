@@ -9,7 +9,7 @@ pow.send({
 console.log('POW started ...');
 
 pow.on('message', msg => {
-  console.log('Hash:', msg.hash.toString('hex'));
+  console.log('Hash:', msg.hash);
   console.log('Nonce:', msg.nonce);
   pow.kill();
 });
